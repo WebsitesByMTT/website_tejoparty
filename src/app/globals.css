@@ -18,16 +18,103 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+  overflow-x: hidden;
+
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+.wave {
+  background: url('../../public/wave2.png') repeat-x;
+  position: absolute;
+  width: 6400px;
+  top: -50px;
+  left: 0;
+  height: 300px;
+  transform: translate(0, 0, 0);
+  animation: waveleft 4s ease infinite;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.wave2 {
+  background: url('../../public/wave2.png') repeat-x;
+  position: absolute;
+  width: 6400px;
+  top: -20px;
+  left: 0;
+  height: 208px;
+  transform: translate(0, 0, 0);
+  z-index: 2;
+  animation: waveright 4s ease infinite;
+  opacity: 1;
+}
+
+.wave3 {
+  background: url('../../public/wave3.png');
+  position: absolute;
+  width: 6400px;
+  top: 20px;
+  left: 0;
+  height: 300px;
+  z-index: 3;
+  margin-right: 500px;
+  animation: swell 4s ease infinite;
+  opacity: 1;
+}
+
+@keyframes waveleft {
+  0% {
+    margin-left: 0;
+  }
+
+  100% {
+    margin-left: -2000px;
+  }
+}
+
+@keyframes waveright {
+  0% {
+    margin-left: -2000px;
+  }
+
+  100% {
+    margin-left: 0;
+  }
+}
+
+@keyframes swell {
+
+  0%,
+  100% {
+    transform: translate(0, -30px);
+  }
+
+  50% {
+    transform: translate(0, 5px);
+  }
+
 }
