@@ -1,7 +1,6 @@
 "use client"
 import Navbar from "./component/Navbar";
 import section1 from "../../public/section1.png"
-import section3 from "../../public/section3.png"
 import Image from "next/image";
 import Button from "./component/Button";
 import Waves from "./component/Waves";
@@ -91,6 +90,48 @@ const data = {
         text: "After logging into your streaming account, tap a Tejoparty invitation.  By simply clicking a link, become a member of the party and have a great experience at the Tejowatch party."
       }
     ]
+  },
+  section6: {
+    heading: "join a watch party by sharing",
+    gradientText: "a URL link",
+    text: "To start a party, you need to have a valid account or subscription to streaming services including Netflix, Prime, Hulu, HBO Max, Disney Plus, and many more. Then you can host a party create an invitation URL link and share it with them with whom you want to watch a movie or a show. After accepting it, they can join a party. Remember they must have a Tejowatch party installed on their browser and also a valid subscription to these multiple streaming services. So, the best part is Tejoparty extension is free to use.",
+    button: {
+      text: "Add to chrome Now Its free",
+      link: "/"
+    },
+  },
+  section7: {
+    heading: "frequently asked questions",
+    faq: [
+      {
+        ques: "How to watch party works?",
+        ans: "After installing the extension on your browser, there will be an option to start a watch party, by clicking that you can create a URL link and share it with your friends and start the party. "
+      },
+      {
+        ques: "How to watch a movie together online?",
+        ans: "It’s very simple, you and your friends need to install the extension on your browser. Remember you both have a valid account or a subscription to the streaming service where you want to watch a movie like Netflix, Hulu, HBO Max, Prime, and many others. Then you can click on the start watch party button create a link and share it with whom you want to stream. Now, you can enjoy all your favorite movies with you your friends and family. You will feel like they are sitting just behind you and enjoying."
+      },
+      {
+        ques: "How to do Netflix watch party?",
+        ans: "At the Tejowatch party, there is a vast variety of multiple streaming services including Netflix, HBO Max, Paramount, Peacock, and many more. For a Netflix watch party, you need to have a valid account and subscription to Netflix and then select a movie that you want to stream select the watchparty option create a URL link share it with your dear ones, and start a party."
+      },
+      {
+        ques: "How to host a virtual watch party?",
+        ans: "Install the extension choose your most preferred streaming website and select a watch party button. Then, create a URL link send it to your friends, and start a virtual watch party."
+      },
+      {
+        ques: "How Do I Start a Watch Party in a Web Browser?",
+        ans: "Tejowatch party only works in browsers that is Chrome and Firefox. After installing it on your browser, you can choose one streaming platform and start a party."
+      },
+      {
+        ques: "Is installing the Tejowatch party safe?",
+        ans: "Yes, it is absolutely safe and the best part is you can use the extension for free. So, enjoy all your favorite movies without any hassle."
+      },
+    ]
+  },
+  section8: {
+    heading: "About",
+    gradientText: "Tejoparty",
   }
 }
 export default function Home() {
@@ -101,6 +142,10 @@ export default function Home() {
       <Section3 data={data.section3} />
       <Section4 data={data.section4} />
       <Section5 data={data.section5} />
+      <Section6 data={data.section6} />
+      <Section7 data={data.section7} />
+      <Section8 data={data.section8} />
+
     </div>
   );
 }
@@ -193,7 +238,7 @@ const Section3 = ({ data }) => {
           {data.features.map((item, index) => (
             <p
               key={index}
-              className={`w-[70%] z-10 transition-all ease duration-300 translate-y-[-100%] text-center text-xl font-light ${active === index ? 'opacity-1 translate-y-0 visible h-auto' : 'opacity-0 invisible h-0'}`}
+              className={`w-[70%] z-10 transition-all ease duration-300 text-center text-xl font-light ${active === index ? 'opacity-1 translate-y-0 visible h-auto' : 'opacity-0 invisible translate-y-[100%] h-0'}`}
             >
               {item.text}
             </p>
@@ -233,18 +278,136 @@ const Section4 = ({ data }) => {
 
 const Section5 = ({ data }) => {
   return (
-    <div className="min-h-screen bg-gradient-to-b  from-[#E4E6F8] to-[#9EA3FA] flex items-center flex-col gap-10">
-      <h2 className=" text-center uppercase text-transparent bg-clip-text bg-gradient-to-r  from-[#212876] to-[#009082] font-extrabold text-[3.5rem]">
+    <div className="min-h-screen bg-gradient-to-b  from-[#E4E6F8] to-[#9EA3FA] flex items-center flex-col gap-[3.5rem]">
+      <h2 className="text-center uppercase text-transparent bg-clip-text bg-gradient-to-r  from-[#212876] to-[#009082] font-extrabold text-[3.5rem]">
         {data.gradientText}
-        <span className="font-extrabold capitalize text-[3.5rem] text-[#232323] bg-clip-none ">{data.heading}</span>
+        <span className="font-extrabold capitalize text-[3.5rem] text-[#232323] bg-clip-none">{data.heading}</span>
       </h2>
-      <div className="flex flex-col w-[50%]">
+      <div className="flex flex-col w-[40%] gap-10">
         {data.steps.map((item, index) => (
-          <div className="px-5 py-2" key={index}>
-            <h4 className="text-xl font-semibold">{item.heading}</h4>
-            <p className="text-large font-light">{item.text}</p>
+          <div className="px-5 pt-5 border-dashed border-l-[#BD33E1] border-l-[2px] relative" key={index} >
+            <h4 className="text-2xl capitalize font-semibold leading-6">{item.heading}</h4>
+            <p className="text-[1rem] font-light">{item.text}</p>
+            <div className="absolute w-3 h-3 rounded-[100%] bg-[#BD33E1] left-[-6px] bottom-[-6px] "></div>
           </div>
         ))}
+      </div>
+      <svg
+        width="1925"
+        height="272"
+        viewBox="0 0 1925 272"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <mask
+          id="mask0_508_2106"
+          style={{ maskType: "alpha" }}
+          maskUnits="userSpaceOnUse"
+          x="0"
+          y="0"
+          width="1925"
+          height="272"
+        >
+          <rect width="1925" height="272" fill="#D9D9D9" />
+        </mask>
+        <g mask="url(#mask0_508_2106)">
+          <path
+            d="M1925 1273.5C1925 1273.5 1743.47 1369.39 1504.5 1369C1263.42 1368.61 760.5 1330.5 537.5 1330.5C257.689 1330.5 0 1369 0 1369V211C0 211 224.167 145.5 489.5 145.5C797.5 145.5 1203 184 1504.5 184C1712.29 184 1925 104 1925 104V1273.5Z"
+            fill="url(#paint0_linear_508_2106)"
+          />
+        </g>
+        <defs>
+          <linearGradient
+            id="paint0_linear_508_2106"
+            x1="1925"
+            y1="155.844"
+            x2="-210.158"
+            y2="1690.72"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop offset="0.368046" stopColor="white" />
+            <stop offset="0.803186" stopColor="white" />
+          </linearGradient>
+        </defs>
+      </svg>
+    </div>
+  )
+}
+
+const Section6 = ({ data }) => {
+  return (
+    <div className="bg-gradient-to-b  from-[#fff] to-[#B6F1F0]">
+      <h2 className="font-extrabold text-[3.5rem] font-[#232323] text-center capitalize">
+        {data.heading}
+      </h2>
+      <h2 className="uppercase text-center text-transparent bg-clip-text bg-gradient-to-r  from-[#212876] to-[#009082] font-extrabold text-[3.5rem]">{data.gradientText}</h2>
+      <p className="mt-10 w-[40%] m-auto text-xl text-center">{data.text}</p>
+      <div className="flex justify-center items-center mt-20">
+        <Button data={data.button} />
+      </div>
+      <svg width="1925" height="205" viewBox="0 0 1925 205" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M1925 205V0C1925 0 1712.29 80 1504.5 80C1354.55 80 1178.88 70.4775 1002.28 60.9043C823.778 51.228 644.321 41.5 489.5 41.5C224.167 41.5 0 107 0 107V205H1925Z" fill="url(#paint0_linear_508_2092)" />
+        <defs>
+          <linearGradient id="paint0_linear_508_2092" x1="1925" y1="7.47957" x2="1799.61" y2="632.254" gradientUnits="userSpaceOnUse">
+            <stop offset="0.368046" stop-color="#CEFD82" />
+            <stop offset="0.803186" stop-color="#CEFD82" />
+          </linearGradient>
+        </defs>
+      </svg>
+
+    </div>
+  )
+}
+
+const Section7 = ({ data }) => {
+  const [openIndex, setOpenIndex] = useState(null);
+  return (
+    <div className="bg-gradient-to-b min-h-screen  from-[#CEFD82] to-[#83D34A]">
+      <h2 className="font-extrabold text-[3.5rem] font-[#232323] text-center capitalize">{data.heading}</h2>
+      <div className="flex flex-col gap-6 w-[60%] mx-auto mt-28">
+        {data.faq.map((item, index) => (
+          <div key={index}>
+            <div onClick={() => setOpenIndex(openIndex === index ? null : index)} className="flex justify-between px-5 py-7 hover:bg-[#C2DAFF] bg-[#E0ECFF] rounded-md transition-all duration-300 ease-in-out">
+              <p className="font-normal text-xl">{item.ques}</p>
+              <div className={openIndex === index ? 'transform rotate-180 transition-transform duration-300 ease' : 'transition-transform duration-300 ease'}>
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M26.7076 12.7075L16.7076 22.7075C16.6147 22.8005 16.5044 22.8742 16.383 22.9246C16.2616 22.9749 16.1315 23.0008 16.0001 23.0008C15.8686 23.0008 15.7385 22.9749 15.6171 22.9246C15.4957 22.8742 15.3854 22.8005 15.2926 22.7075L5.29256 12.7075C5.15254 12.5676 5.05718 12.3894 5.01853 12.1953C4.97988 12.0012 4.99968 11.8 5.07543 11.6172C5.15119 11.4344 5.27948 11.2782 5.44407 11.1683C5.60867 11.0584 5.80216 10.9998 6.00006 11H26.0001C26.198 10.9998 26.3914 11.0584 26.556 11.1683C26.7206 11.2782 26.8489 11.4344 26.9247 11.6172C27.0004 11.8 27.0202 12.0012 26.9816 12.1953C26.9429 12.3894 26.8476 12.5676 26.7076 12.7075Z" fill="#4098FF" />
+                </svg>
+              </div>
+            </div>
+            <div
+              className={`px-5 font-light text-large  bg-[#ffffff1c] rounded-md ${openIndex === index ? 'py-5 max-h-[500px] transition-all duration-300 ease-in-out opacity-100' : 'max-h-0 overflow-hidden transition-all duration-300 ease-in-out opacity-0'
+                }`}
+            >
+              {item.ans}
+            </div>
+          </div>
+        ))}
+      </div>
+      <svg width="1925" height="158" viewBox="0 0 1925 158" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M1504.5 95.4998C1743.47 95.8912 1925 -7.62939e-05 1925 -7.62939e-05V158H0V95.4999C0 95.4999 257.689 56.9995 537.5 56.9995C647.716 56.9995 826.31 66.3078 1007.87 75.7709C1193.67 85.4544 1382.57 95.3001 1504.5 95.4998Z" fill="url(#paint0_linear_508_2091)" />
+        <defs>
+          <linearGradient id="paint0_linear_508_2091" x1="1925" y1="7.47957" x2="1799.61" y2="632.254" gradientUnits="userSpaceOnUse">
+            <stop offset="0.368046" stop-color="white" />
+            <stop offset="0.803186" stop-color="white" />
+          </linearGradient>
+        </defs>
+      </svg>
+    </div>
+  )
+}
+
+const Section8 = ({ data }) => {
+  return (
+    <div className="flex bg-gradient-to-b  from-[#FFFFFF] to-[#B6F1F0] min-h-screen">
+      <div className="w-[50%]">
+        <h2 className="font-extrabold text-[3.5rem] font-[#232323]">
+          {data.heading}
+          <span className="uppercase inline-block text-transparent bg-clip-text bg-gradient-to-r  from-[#212876] to-[#009082] font-extrabold text-[3.5rem]">{data.gradientText}</span>
+        </h2>
+      </div>
+      <div className="w-[50%]">
+
       </div>
     </div>
   )
