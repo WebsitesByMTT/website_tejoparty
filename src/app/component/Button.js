@@ -1,8 +1,9 @@
 const Button = ({ data }) => {
     return (
-            <a href={data.link} target="_blank" className="bg-[#55BF88] p-3 py-2 rounded-[4rem] flex w-fit z-10">
+            <a href={data.link} target="_blank" className="bg-[#55BF88] p-3 py-2 rounded-[4rem] flex w-fit z-[100]">
                 <button className="flex  items-center gap-2 text-[1.1rem] font-[200]">
-                    <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <div className="w-[15%] md:w-fit">
+                    <svg width="100%" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g filter="url(#filter0_ii_75_761)">
                             <g clip-path="url(#clip0_75_761)">
                                 <path d="M2.38123 0.428589V18.8377H9.09713L15 8.61041H30V0.428589H2.38123Z" fill="#DB4437" />
@@ -90,6 +91,7 @@ const Button = ({ data }) => {
                             </clipPath>
                         </defs>
                     </svg>
+                    </div>
                     <span className="text-white">{data.text}</span>
                 </button>
             </a>

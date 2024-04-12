@@ -21,8 +21,13 @@ body {
   background: linear-gradient(to bottom,
       transparent,
       rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
-  overflow-x: hidden;
 
+  overflow-x: hidden !important;
+
+}
+
+html {
+  overflow-x: hidden !important;
 }
 
 ::-webkit-scrollbar {
@@ -35,15 +40,21 @@ body {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1300px) {
   html {
-    font-size: 50%;
+    font-size: 65%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  html {
+    font-size: 70%;
   }
 }
 
 @media screen and (max-width: 480px) {
   html {
-    font-size: 40%;
+    font-size: 60%;
   }
 }
 
@@ -83,6 +94,32 @@ body {
   z-index: 3;
   margin-right: 500px;
   animation: swell 4s ease infinite;
+  opacity: 1;
+}
+
+.wave_1 {
+  background: url('../../public/wave2.png') repeat-x;
+  position: absolute;
+  width: 6400px;
+  top: -100px;
+  left: 0;
+  height: 300px;
+  transform: translate(0, 0, 0);
+  animation: waveleft 4s ease infinite;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.wave_2 {
+  background: url('../../public/wave2.png') repeat-x;
+  position: absolute;
+  width: 6400px;
+  top: 10px;
+  left: 0;
+  height: 208px;
+  transform: translate(0, 0, 0);
+  z-index: 2;
+  animation: waveright 4s ease infinite;
   opacity: 1;
 }
 
