@@ -17,6 +17,9 @@ export const metadata = {
     type: "website",
     // images: "https://www.trueadblocker.net/favicon.ico",
   },
+  icons: {
+    icon: '/favicon.png',
+  },
   // metadataBase: new URL("https://www.trueadblocker.net/"),
   // alternates: {
   //   canonical: "/",

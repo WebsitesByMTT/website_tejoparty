@@ -42,19 +42,14 @@ html {
 
 @media screen and (max-width: 1300px) {
   html {
-    font-size: 65%;
+    font-size: 80%;
   }
 }
 
-@media screen and (max-width: 1023px) {
-  html {
-    font-size: 70%;
-  }
-}
 
 @media screen and (max-width: 480px) {
   html {
-    font-size: 60%;
+    font-size: 65%;
   }
 }
 
