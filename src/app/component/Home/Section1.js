@@ -1,11 +1,27 @@
+"use client"
 import Image from "next/image";
 import Button from "../Button";
 import Navbar from "../Navbar";
 import Waves from "../Waves";
 import section1 from "../../../../public/section1.png"
+import { useState } from "react";
 
 
 const Section1 = ({ data }) => {
+    const [showFullText, setShowFullText] = useState(false);
+
+    // Function to toggle showing the full text
+    const toggleFullText = () => {
+        setShowFullText(!showFullText);
+    };
+
+    // Function to truncate the text to the desired length
+    const truncateText = (text, maxLength) => {
+        if (text.length <= maxLength) {
+            return text;
+        }
+        return text.slice(0, maxLength) + '...';
+    };
     return (
         <div className="bg-gradient-to-b  from-[#FFFFFF] to-[#B6F1F0] relative">
             <Navbar data={data.navbar} />
@@ -19,7 +35,18 @@ const Section1 = ({ data }) => {
                         {data.subHeading}
                     </h4>
                     <div className="flex flex-col gap-4 m-auto text-left md:text-center lg:m-0 w-fit">
-                        <p className="md:text-[1rem] text-[1.3rem] font-light font-[#000] text-center  md:block" dangerouslySetInnerHTML={{ __html: `<span>${data.text}</span>` }}></p>
+                        <div>
+                            <p
+                                className="md:text-[1rem] text-[1.3rem] font-light font-[#000] text-center lg:hidden inline m-auto"
+                                dangerouslySetInnerHTML={{ __html: `<span>${showFullText ? data.text : truncateText(data.text, 212)}</span>` }}
+                            ></p>
+                            {!showFullText && (
+                                <span><button onClick={toggleFullText} className="lg:hidden md:text-[1rem] text-[1.3rem] font-medium font-[#000] text-[#44a372]">
+                                    Read More
+                                </button></span>
+                            )}
+                        </div>
+                        <p className="text-[1rem] font-light font-[#000] hidden lg:block" dangerouslySetInnerHTML={{ __html: `<span>${data.text}</span>` }}></p>
                         <div className="m-auto  z-[100]"><Button data={data.button} /></div>
                     </div>
                 </div>
