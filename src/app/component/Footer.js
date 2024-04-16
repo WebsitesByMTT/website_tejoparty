@@ -1,3 +1,5 @@
+import Button from "./Button"
+
 const Footer = ({ data }) => {
     return (
         <>
@@ -7,6 +9,10 @@ const Footer = ({ data }) => {
                         {data.heading}
                     </h2>
                     <p className="text-2xl font-semibold" >{data.subtext}</p>
+                    <div className="flex gap-4">
+                        <Button data={data.contactUs}/>
+                        <Button data={data.privacyPolicy}/>
+                    </div>
                 </div>
                 <svg width="100%" viewBox="0 0 1920 477" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clipPath="url(#clip0_575_3796)">

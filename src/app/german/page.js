@@ -38,7 +38,8 @@ const data = {
         navbar: {
             button: {
                 text: "Zu Chrome hinzufügen ist kostenlos",
-                link: "/"
+                link: "/",
+                type:"button"
             },
             link: "About Us",
         },
@@ -48,7 +49,8 @@ const data = {
         text: "Wie oft haben Sie Ihren Kinotermin mit Ihren Lieben geplant und ihn aufgrund Ihres hektischen Arbeitsalltags abgesagt? Aber nicht mehr! Wie bei dieser Tejoparty-Erweiterung müssen Sie Ihre Filmabende nicht absagen. Denn bei Tejoparty finden Sie zahlreiche aktuelle Filme, Shows und Serien auf einer Plattform. Das Beste daran ist, dass Sie hier Ihr eigenes Projekt starten können watch party Hier können Sie beliebig viele Freunde einladen und sich unterhalten, während Sie einen Film ansehen. Es wird Ihnen das Gefühl geben, als würden Sie neben ihnen sitzen und viel Spaß miteinander haben. <br/> <br/>  Egal, ob Sie ein Netflix-Benutzer oder ein Prime sind, es ist für jeden etwas dabei. Sie können eine hosten Hulu watch party, Netflix watch party, YouTube watch party, HBO Max watch party, Disney Plus watch party, Amazon watch party, und viele andere.",
         button: {
             text: "Zu Chrome hinzufügen ist kostenlos",
-            link: "/"
+            link: "/",
+            type:"button"
         },
     },
     section2: {
@@ -101,7 +103,7 @@ const data = {
                 text: "Nachdem Sie es in Ihrem Browser installiert haben, können Sie es nun an die Symbolleiste Ihres Webbrowsers anheften. Klicken Sie einfach mit der rechten Maustaste auf das TP-Symbol und drücken Sie dann auf das Stecknadelsymbol, um die TP-Schaltfläche an die Symbolleiste anzuheften."
             },
             {
-                heading: "Sign up for your account",
+                heading: "Registrieren Sie sich für Ihr Konto",
                 text: "Jetzt können Sie Ihre bevorzugte Streaming-Plattform öffnen, darunter Netflix, Amazon Prime, Hulu, HBO Max und viele mehr. Denken Sie jedoch vorher daran, dass Sie über ein gültiges Konto oder ein Abonnement für diese Streaming-Websites verfügen sollten. Falls Sie noch kein Konto haben, machen Sie sich keine Sorgen, Sie können trotzdem ein neues Konto erstellen. Dann können Sie eine hosten watch party und laden Sie Ihre Lieben ein, Filme oder Shows zu genießen."
             },
             {
@@ -124,7 +126,8 @@ const data = {
         text: "Um eine Party zu starten, benötigen Sie ein gültiges Konto oder Abonnement für Streaming-Dienste wie Netflix, Prime, Hulu, HBO Max, Disney Plus und viele mehr. Anschließend können Sie eine Party veranstalten, einen Einladungs-URL-Link erstellen und diesen mit den Personen teilen, mit denen Sie einen Film oder eine Show ansehen möchten. Nachdem sie es akzeptiert haben, können sie einer Party beitreten. Denken Sie daran, dass in ihrem Browser eine Tejowatch-Party und ein gültiges Abonnement für diese verschiedenen Streaming-Dienste installiert sein müssen. Das Beste daran ist, dass die Tejoparty-Erweiterung kostenlos genutzt werden kann.",
         button: {
             text: "Zu Chrome hinzufügen ist kostenlos",
-            link: "/"
+            link: "/",
+            type:"button"
         },
     },
     section7: {
@@ -173,7 +176,19 @@ const data = {
         keywords: "Watch together with friends, watch party, watchparty, Tejo extension, netflix party, teleparty, watch party, chat netflix, watch together, hyperbeam, watch party netflix, watch party amazon prime, netflix watch party, teleparty extensão, watch party amazon",
         heading2: "Haftungsausschluss:- ",
         text: "Tejoparty, Tejo Watchparty Extension, Teleparty Extension, Netflix, HBO Max, Disney Plus Hotstar, Amazon Prime Video, Hulu, Paramount Plus, And Peacock TV sind die Marken ihrer jeweiligen Eigentümer. Diese Website und Erweiterung stehen in keiner Verbindung oder Mitgliedschaft zu einer der genannten Marken oder Drittunternehmen.",
-        copywrite: "copyright © 2024 Tejoparty. All rights reserved."
+        copywrite: "copyright © 2024 Tejoparty. All rights reserved.",
+        contactUs: {
+            text: "Kontaktiere uns",
+            link: "/contact-us",
+            type: "button",
+            icon: false
+          },
+          privacyPolicy:{
+            text: "Privacy Policy",
+            link: "/privacy-policy",
+            type: "button",
+            icon: false
+          }
     }
 }
 

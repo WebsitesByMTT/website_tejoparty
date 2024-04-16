@@ -1,8 +1,9 @@
 const Button = ({ data }) => {
     return (
-        <a href={data.link} target="_blank" className="bg-[#55BF88] p-3 py-2 rounded-[4rem] flex w-fit z-[100]">
-            <button className="flex  items-center gap-2 text-[1.1rem] font-[200]">
-                    <svg  className="rounded-[50%]" height="31" width="30" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <>
+            {data.type === "button" ? <a href={data?.link} className="bg-[#55BF88] p-3 py-2 rounded-[4rem] flex w-fit z-[100]">
+                <button className="flex  items-center gap-2 text-[1.1rem] font-[200]">
+                    {data.icon && <svg className="rounded-[50%]" height="31" width="30" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g filter="url(#filter0_ii_75_761)">
                             <g clipPath="url(#clip0_75_761)">
                                 <path d="M2.38123 0.428589V18.8377H9.09713L15 8.61041H30V0.428589H2.38123Z" fill="#DB4437" />
@@ -89,10 +90,15 @@ const Button = ({ data }) => {
                                 <rect y="0.428589" width="30" height="30" rx="15" fill="white" />
                             </clipPath>
                         </defs>
-                    </svg>
-                <span className="text-white w-fit">{data.text}</span>
-            </button>
-        </a>
+                    </svg>}
+                    <span className="text-white w-fit">{data.text}</span>
+                </button>
+            </a> : <div className="bg-[#55BF88] p-3 py-2 rounded-[4rem] flex w-fit z-[100]">
+                <button className="flex  items-center gap-2 text-[1.1rem] font-[200]">
+                    <span className="text-white w-fit">{data.text}</span>
+                </button>
+            </div>}
+        </>
     )
 }
 
