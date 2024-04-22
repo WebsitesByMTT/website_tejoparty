@@ -15,7 +15,7 @@ const data = {
     navbar: {
       button: {
         text: "Add to chrome Now Its free",
-        link: "/",
+        link: "https://chromewebstore.google.com/detail/tejo-party/anhcmjonklecalmmmpfnefbkkmbahjoi",
         type: "button",
         icon: true
       },
@@ -27,7 +27,7 @@ const data = {
     text: "How many times, that you planned your movie date with your loved ones and canceled due to your hectic work schedules? But not anymore! As with this extension Tejoparty, you don’t need to cancel your movie nights. Because in Tejoparty you will find numerous latest movies, shows, and series on one platform. The best part is here you can start your own watch party where you can invite as many as your friends and have a chit-chat while watching a movie. It will give you a feel like you are sitting next to them and having lots of fun together. <br/> <br/>  Whether you are a Netflix person or a Prime, there is everything for everyone. You can host a Hulu watch party, Netflix watch party, YouTube watch party, HBO Max watch party, Disney Plus watch party, Amazon watch party, and many others. ",
     button: {
       text: "Add to chrome Now Its free",
-      link: "/",
+      link: "https://chromewebstore.google.com/detail/tejo-party/anhcmjonklecalmmmpfnefbkkmbahjoi",
       type: "button",
       icon: true
     },
@@ -105,7 +105,7 @@ const data = {
     text: "To start a party, you need to have a valid account or subscription to streaming services including Netflix, Prime, Hulu, HBO Max, Disney Plus, and many more. Then you can host a party create an invitation URL link and share it with them with whom you want to watch a movie or a show. After accepting it, they can join a party. Remember they must have a Tejowatch party installed on their browser and also a valid subscription to these multiple streaming services. So, the best part is Tejoparty extension is free to use.",
     button: {
       text: "Add to chrome Now Its free",
-      link: "/",
+      link: "https://chromewebstore.google.com/detail/tejo-party/anhcmjonklecalmmmpfnefbkkmbahjoi",
       type: "button",
       icon: true
     },
