@@ -1,7 +1,7 @@
 const Button = ({ data }) => {
     return (
         <>
-            {data.type === "button" ? <a href={data?.link} className="bg-[#55BF88] p-3 py-2 rounded-[4rem] flex w-fit z-[100]">
+            {data.type === "button" ? <a href={data?.link} target={data.link === "https://chromewebstore.google.com/detail/tejo-party/anhcmjonklecalmmmpfnefbkkmbahjoi" ? "_blank" : null} className="bg-[#55BF88] p-3 py-2 rounded-[4rem] flex w-fit z-[100]">
                 <button className="flex  items-center gap-2 text-[1.1rem] font-[200]">
                     {data.icon && <svg className="rounded-[50%]" height="31" width="30" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g filter="url(#filter0_ii_75_761)">

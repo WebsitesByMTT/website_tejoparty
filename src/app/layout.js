@@ -13,17 +13,17 @@ export const metadata = {
     title: "Tejowatch party - Install and watch together with friends",
     description:
       "Tejowatch Party is the new way to binge all your favorite series and movies to watch together with friends.",
-    // url: "https://www.trueadblocker.net/",
+    url: "https://www.tejoparty.com/",
     type: "website",
     // images: "https://www.trueadblocker.net/favicon.ico",
   },
   icons: {
     icon: '/favicon.png',
   },
-  // metadataBase: new URL("https://www.trueadblocker.net/"),
-  // alternates: {
-  //   canonical: "/",
-  // },
+  metadataBase: new URL("https://www.tejoparty.com/"),
+  alternates: {
+    canonical: "/",
+  },
 };
 export default function RootLayout({ children }) {
   return (

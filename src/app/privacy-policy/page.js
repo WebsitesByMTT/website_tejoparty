@@ -6,7 +6,7 @@ const PrivacyPolicy = () => {
         navbar: {
             button: {
                 text: "Add to chrome Now Its free",
-                link: "/",
+                link: "https://chromewebstore.google.com/detail/tejo-party/anhcmjonklecalmmmpfnefbkkmbahjoi",
                 type: "button",
                 icon: true
             }

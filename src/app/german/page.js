@@ -19,14 +19,14 @@ export const metadata = {
         title: "Tejowatch party -Installieren und watch together mit Freunden",
         description:
             "Tejowatch Party ist die neue Möglichkeit, alle Ihre Lieblingsserien und -filme anzusehen watch together mit Freunden.",
-        // url: "https://www./german",
+        url: "https://www.tejoparty.com/german",
         type: "website",
         // images: "https://www./favicon.png",
     },
     htmlAttributes: {
         lang: "de",
     },
-    // metadataBase: new URL("https://www./german"),
+    metadataBase: new URL("https://www.tejoparty.com/german"),
     alternates: {
         canonical: "/",
         dutch: [{ href: "/", hreflang: "de" }],
@@ -38,8 +38,9 @@ const data = {
         navbar: {
             button: {
                 text: "Zu Chrome hinzufügen ist kostenlos",
-                link: "/",
-                type:"button"
+                link: "https://chromewebstore.google.com/detail/tejo-party/anhcmjonklecalmmmpfnefbkkmbahjoi",
+                type:"button",
+                icon: true
             },
             link: "About Us",
         },
@@ -49,8 +50,9 @@ const data = {
         text: "Wie oft haben Sie Ihren Kinotermin mit Ihren Lieben geplant und ihn aufgrund Ihres hektischen Arbeitsalltags abgesagt? Aber nicht mehr! Wie bei dieser Tejoparty-Erweiterung müssen Sie Ihre Filmabende nicht absagen. Denn bei Tejoparty finden Sie zahlreiche aktuelle Filme, Shows und Serien auf einer Plattform. Das Beste daran ist, dass Sie hier Ihr eigenes Projekt starten können watch party Hier können Sie beliebig viele Freunde einladen und sich unterhalten, während Sie einen Film ansehen. Es wird Ihnen das Gefühl geben, als würden Sie neben ihnen sitzen und viel Spaß miteinander haben. <br/> <br/>  Egal, ob Sie ein Netflix-Benutzer oder ein Prime sind, es ist für jeden etwas dabei. Sie können eine hosten Hulu watch party, Netflix watch party, YouTube watch party, HBO Max watch party, Disney Plus watch party, Amazon watch party, und viele andere.",
         button: {
             text: "Zu Chrome hinzufügen ist kostenlos",
-            link: "/",
-            type:"button"
+            link: "https://chromewebstore.google.com/detail/tejo-party/anhcmjonklecalmmmpfnefbkkmbahjoi",
+            type:"button",
+            icon: true
         },
     },
     section2: {
@@ -126,8 +128,9 @@ const data = {
         text: "Um eine Party zu starten, benötigen Sie ein gültiges Konto oder Abonnement für Streaming-Dienste wie Netflix, Prime, Hulu, HBO Max, Disney Plus und viele mehr. Anschließend können Sie eine Party veranstalten, einen Einladungs-URL-Link erstellen und diesen mit den Personen teilen, mit denen Sie einen Film oder eine Show ansehen möchten. Nachdem sie es akzeptiert haben, können sie einer Party beitreten. Denken Sie daran, dass in ihrem Browser eine Tejowatch-Party und ein gültiges Abonnement für diese verschiedenen Streaming-Dienste installiert sein müssen. Das Beste daran ist, dass die Tejoparty-Erweiterung kostenlos genutzt werden kann.",
         button: {
             text: "Zu Chrome hinzufügen ist kostenlos",
-            link: "/",
-            type:"button"
+            link: "https://chromewebstore.google.com/detail/tejo-party/anhcmjonklecalmmmpfnefbkkmbahjoi",
+            type:"button",
+            icon: true
         },
     },
     section7: {
