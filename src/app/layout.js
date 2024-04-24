@@ -17,7 +17,7 @@ export const metadata = {
       "Tejowatch Party is the new way to binge all your favorite series and movies to watch together with friends.",
     url: "https://www.tejoparty.com/",
     type: "website",
-    // images: "https://www.trueadblocker.net/favicon.ico",
+
   },
   icons: {
     icon: '/favicon.png',
@@ -27,6 +27,7 @@ export const metadata = {
     canonical: "/",
   },
 };
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -36,8 +37,9 @@ export default function RootLayout({ children }) {
           name="google-site-verification"
           content="hbBxi_dOjH2Sxlv0z7qsLt9P3MRtXlq-NWcOipTX50s"
         />
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-01WHL0EHPQ" />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-01WHL0EHPQ" strategy="beforeInteractive" />
         <Script
+          strategy="beforeInteractive"
           id="gtm-script"
           dangerouslySetInnerHTML={{
             __html: `
@@ -47,6 +49,7 @@ export default function RootLayout({ children }) {
               gtag('config', 'G-01WHL0EHPQ');
             `,
           }}
+
         />
       </head>
       <body className={inter.className}>
