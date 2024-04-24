@@ -1,5 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
+import Schema from "./Schema";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,7 +30,29 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <head>
+        <link rel="icon" type="image/x-icon" href="/favicon.png" />
+        <meta
+          name="google-site-verification"
+          content="hbBxi_dOjH2Sxlv0z7qsLt9P3MRtXlq-NWcOipTX50s"
+        />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-01WHL0EHPQ" />
+        <Script
+          id="gtm-script"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-01WHL0EHPQ');
+            `,
+          }}
+        />
+      </head>
+      <body className={inter.className}>
+        <Schema />
+        {children}
+      </body>
     </html>
   );
 }

@@ -12,7 +12,7 @@ const Schema = () => {
               "@context": "https://schema.org",
               "@type": "WebSite",
               "name": "Tejowatch party",
-              // "url":"https:/"
+              "url":"https://www.tejoparty.com/"
             },
             null,
             "\t"
