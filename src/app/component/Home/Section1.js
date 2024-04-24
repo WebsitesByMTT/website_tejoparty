@@ -51,7 +51,7 @@ const Section1 = ({ data }) => {
                     </div>
                 </div>
                 <div className="lg:w-[45%] w-full flex justify-center items-center">
-                    <Image src={section1} alt="" className="h-auto w-full m-auto border-solid border-[0.8rem] border-black rounded-xl" />
+                    <iframe src="https://www.youtube.com/embed/RUTfvRmiYQc?&autoplay=1" className="h-[500px] w-full m-auto border-solid border-[0.8rem] border-black rounded-xl" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
             <Waves wave3={false} />
