@@ -176,7 +176,7 @@ const data = {
         heading: "Holen Sie es sich jetzt, es ist kostenlos",
         subtext: "Ich bin bereit, der Tejowatch-Party beizutreten",
         heading1: "Beliebte Suchanfragen:-",
-        keywords: "<a href='/german'>Watch together with friends</a>, watch party, <a href='https://www.tejoparty.com/portuguese'>watchparty</a>, Tejo extension, netflix party, teleparty, watch party, chat netflix, watch together, hyperbeam, watch party netflix, watch party amazon prime, netflix watch party, teleparty extensão, watch party amazon",
+        keywords: "<a href='/'>Watch together with friends</a>, watch party, <a href='https://www.tejoparty.com/portuguese'>watchparty</a>, Tejo extension, netflix party, teleparty, watch party, chat netflix, watch together, hyperbeam, watch party netflix, watch party amazon prime, netflix watch party, teleparty extensão, watch party amazon",
         heading2: "Haftungsausschluss:- ",
         text: "Tejoparty, Tejo Watchparty Extension, Teleparty Extension, Netflix, HBO Max, Disney Plus Hotstar, Amazon Prime Video, Hulu, Paramount Plus, And Peacock TV sind die Marken ihrer jeweiligen Eigentümer. Diese Website und Erweiterung stehen in keiner Verbindung oder Mitgliedschaft zu einer der genannten Marken oder Drittunternehmen.",
         copywrite: "copyright © 2024 Tejoparty. All rights reserved.",
