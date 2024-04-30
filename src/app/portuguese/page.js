@@ -45,7 +45,7 @@ const data = {
             link: "About Us",
         },
         heading: "Use o Tejoparty para iniciar um ",
-        name: "WatchParty Together",
+        name: "<a href='https://www.tejoparty.com/'>WatchParty Together</a>",
         subHeading: "É a melhor extensão onde você pode explorar todos os programas mais recentes",
         text: "Quantas vezes você planejou o encontro do cinema com seus entes queridos e cancelou devido à sua agitada agenda de trabalho? Mas não mais! Tal como acontece com esta extensão Tejoparty, não precisa de cancelar as suas noites de cinema. Porque no Tejoparty você encontrará vários filmes, programas e séries mais recentes em uma única plataforma. A melhor parte é que aqui você pode começar o seu próprio watch party together where you can invite as many as your friends and have a chit-chat while watching a movie. It will give you a feel like you are sitting next to them and having lots of fun together. <br/> <br/>  Quer você seja um Netflix ou um Prime, há de tudo para todos. Você pode hospedar um Hulu watch party, Netflix watch party, YouTube watch party, HBO Max watch party, Disney Plus watch party, Amazon watch party, and many others. ",
         button: {
@@ -165,7 +165,7 @@ const data = {
     section8: {
         heading: "Sobre a ",
         gradientText: "Tejoparty",
-        text: "Tejowatch party é uma extensão fantástica onde você pode transmitir todos os seus favoritos ao mesmo tempo com seus amigos e familiares. Possui alguns dos melhores recursos, incluindo bate-papo em grupo, chamadas de áudio e vídeo que sincronizam a reprodução em seu navegador. Então, crie sua própria memória enquanto assistem juntos. <br/> <br/> Nesta extensão, você obterá todos os serviços de streaming mais recentes, como Netflix, HBO Max, Hulu, Prime, Paramount e muitos mais. Baixe agora a extensão e curta séries, filmes e programas em diversas plataformas. Expresse seu humor compartilhando emojis enquanto assiste ao seu conteúdo preferido."
+        text: "Tejowatch party  é uma extensão fantástica onde você pode transmitir todos os seus favoritos ao mesmo tempo com seus amigos e familiares. Possui alguns dos melhores recursos, incluindo bate-papo em grupo, chamadas de áudio e vídeo que sincronizam a reprodução em seu navegador. Então, crie sua própria memória enquanto assistem juntos. <br/> <br/> Nesta extensão, você obterá todos os serviços de streaming mais recentes, como Netflix, HBO Max, Hulu, Prime, Paramount e muitos mais. Baixe agora a extensão e curta séries, filmes e programas em diversas plataformas. Expresse seu humor compartilhando emojis enquanto assiste ao seu conteúdo preferido."
     },
     section9: {
         heading: "Assistir ",
@@ -187,7 +187,7 @@ const data = {
             icon: false
         },
         privacyPolicy: {
-            text: "Privacy Policy",
+            text: "Política de Privacidade",
             link: "/privacy-policy",
             type: "button",
             icon: false
@@ -201,7 +201,7 @@ const Portuguese = () => {
             <Section1 data={data.section1} />
             <Section2 data={data.section2} />
             <Section3 data={data.section3} />
-            <Section4 data={data.section4} />
+            <Section4 />
             <Section5 data={data.section5} />
             <Section6 data={data.section6} />
             <Section7 data={data.section7} />

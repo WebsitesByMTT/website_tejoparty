@@ -39,19 +39,19 @@ const data = {
             button: {
                 text: "Zu Chrome hinzufügen ist kostenlos",
                 link: "https://chromewebstore.google.com/detail/tejo-party/anhcmjonklecalmmmpfnefbkkmbahjoi",
-                type:"button",
+                type: "button",
                 icon: true
             },
             link: "About Us",
         },
         heading: "Verwenden Sie Tejoparty, um A zu starten",
-        name: "WatchParty",
+        name: "<a href='https://www.tejoparty.com/'>WatchParty</a>",
         subHeading: "Es ist die beste Erweiterung, mit der Sie die neuesten Shows erkunden können",
         text: "Wie oft haben Sie Ihren Kinotermin mit Ihren Lieben geplant und ihn aufgrund Ihres hektischen Arbeitsalltags abgesagt? Aber nicht mehr! Wie bei dieser Tejoparty-Erweiterung müssen Sie Ihre Filmabende nicht absagen. Denn bei Tejoparty finden Sie zahlreiche aktuelle Filme, Shows und Serien auf einer Plattform. Das Beste daran ist, dass Sie hier Ihr eigenes Projekt starten können watch party Hier können Sie beliebig viele Freunde einladen und sich unterhalten, während Sie einen Film ansehen. Es wird Ihnen das Gefühl geben, als würden Sie neben ihnen sitzen und viel Spaß miteinander haben. <br/> <br/>  Egal, ob Sie ein Netflix-Benutzer oder ein Prime sind, es ist für jeden etwas dabei. Sie können eine hosten Hulu watch party, Netflix watch party, YouTube watch party, HBO Max watch party, Disney Plus watch party, Amazon watch party, und viele andere.",
         button: {
             text: "Zu Chrome hinzufügen ist kostenlos",
             link: "https://chromewebstore.google.com/detail/tejo-party/anhcmjonklecalmmmpfnefbkkmbahjoi",
-            type:"button",
+            type: "button",
             icon: true
         },
     },
@@ -129,7 +129,7 @@ const data = {
         button: {
             text: "Zu Chrome hinzufügen ist kostenlos",
             link: "https://chromewebstore.google.com/detail/tejo-party/anhcmjonklecalmmmpfnefbkkmbahjoi",
-            type:"button",
+            type: "button",
             icon: true
         },
     },
@@ -185,13 +185,13 @@ const data = {
             link: "/contact-us",
             type: "button",
             icon: false
-          },
-          privacyPolicy:{
-            text: "Privacy Policy",
+        },
+        privacyPolicy: {
+            text: "Datenschutzrichtlinie",
             link: "/privacy-policy",
             type: "button",
             icon: false
-          }
+        }
     }
 }
 
@@ -201,7 +201,7 @@ const German = () => {
             <Section1 data={data.section1} />
             <Section2 data={data.section2} />
             <Section3 data={data.section3} />
-            <Section4 data={data.section4} />
+            <Section4 />
             <Section5 data={data.section5} />
             <Section6 data={data.section6} />
             <Section7 data={data.section7} />

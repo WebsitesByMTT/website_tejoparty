@@ -29,7 +29,7 @@ const Section1 = ({ data }) => {
                 <div className="flex flex-col md:gap-2 gap-6 lg:w-[50%] w-[100%]">
                     <div>
                         <h1 className="font-extrabold md:text-[3.5rem] text-[2.55rem] font-[#232323] text-center">{data.heading}</h1>
-                        <h2 className="text-center text-transparent bg-clip-text bg-gradient-to-r  from-[#212876] to-[#009082] font-extrabold text-[3.5rem] uppercase">{data.name}</h2>
+                        <h2 className="text-center text-transparent bg-clip-text bg-gradient-to-r  from-[#212876] to-[#009082] font-extrabold text-[3.5rem] uppercase" dangerouslySetInnerHTML={{ __html: `<span>${data.name}</span>` }}></h2>
                     </div>
                     <h4 className="text-2xl text-center font-light capitalize font-[#221E1F]">
                         {data.subHeading}
@@ -51,7 +51,7 @@ const Section1 = ({ data }) => {
                     </div>
                 </div>
                 <div className="lg:w-[45%] w-full flex justify-center items-center">
-                    <iframe src="https://www.youtube.com/embed/RUTfvRmiYQc?&autoplay=1" className="md:h-[500px] h-auto w-full m-auto border-solid border-[0.8rem] border-black rounded-xl" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                    <iframe src="https://www.youtube.com/embed/AguYw5yWbMI?&autoplay=1" className="bg-black md:h-[500px] h-auto w-full m-auto border-solid border-[0.8rem] border-black rounded-xl" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
                 </div>
             </div>
             <Waves wave3={false} />

@@ -40,7 +40,7 @@ const PrivacyPolicy = () => {
             <div className="bg-gradient-to-b  from-[#B6F1F0] to-[#FFF] px-[10%] pt-[4rem] pb-[10%]">
                 <div className="md:w-[60%] w-[95%] md:min-w-[550px] mx-auto flex flex-col gap-10 items-center">
                     <h1 className="text-center text-transparent bg-clip-text bg-gradient-to-r  from-[#212876] to-[#009082] font-extrabold text-[3.5rem] uppercase">Privacy policy</h1>
-                    <p className="text-center text-xl">The privacy policy of the Tejoparty documents contains all types of details that are collected by ourselves. But in case you have any queries about our privacy policy you can freely contact us without any hesitation.
+                    <p className="text-center text-xl">The privacy policy of the <a href="https://www.tejoparty.com/">Tejoparty</a> documents contains all types of details that are collected by ourselves. But in case you have any queries about our privacy policy you can freely contact us without any hesitation.
                         For using our website, you need to agree with our privacy policy.
                     </p>
                     <div className="flex flex-col gap-4">

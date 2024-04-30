@@ -4,7 +4,7 @@ import { useInView } from 'react-intersection-observer';
 
 const Section8 = ({ data }) => {
     const { ref, inView } = useInView();
-    
+
     return (
         <div className="bg-gradient-to-b  from-[#FFFFFF] to-[#B6F1F0]">
             <div className="flex flex-col md:flex-row md:pl-28 py-10 gap-10">
@@ -13,9 +13,9 @@ const Section8 = ({ data }) => {
                         {data.heading}
                         <span className="uppercase inline-block text-transparent bg-clip-text bg-gradient-to-r  from-[#212876] to-[#009082] font-extrabold text-[3.5rem]">{data.gradientText}</span>
                     </h2>
-                    <p ref={ref} className="text-xl font-light w-[80%] md:w-[85%]" dangerouslySetInnerHTML={{ __html: `<span>${data.text}</span>` }}></p>
+                    <p className="text-xl font-light w-[80%] md:w-[85%]" dangerouslySetInnerHTML={{ __html: `<span>${data?.text}</span>` }}></p>
                 </div>
-                <div className="w-[50%] m-auto" >
+                <div ref={ref} className="w-[50%] m-auto" >
                     <motion.svg
                         initial={{ opacity: 0 }}
                         animate={{
