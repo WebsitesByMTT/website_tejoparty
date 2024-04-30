@@ -36,7 +36,13 @@ const ContactUs = () => {
                 link: "/privacy-policy",
                 type: "button",
                 icon: false
-              }
+              },
+               blogs: {
+                text: "Blogs",
+                link: "/blogs",
+                type: "button",
+                icon: false
+            }
         }
     }
     const sendEmail = (e) => {

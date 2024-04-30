@@ -37,6 +37,10 @@ export default function RootLayout({ children }) {
           name="google-site-verification"
           content="hbBxi_dOjH2Sxlv0z7qsLt9P3MRtXlq-NWcOipTX50s"
         />
+        <meta property="og:title" content="tejowatch party - install and watch together with friends" />
+        <meta property="og:type" content="tejowatch party is the new way to binge all your favorite series and movies to watch together with friends." />
+        <meta property="og:url" content="https://www.tejoparty.com/" />
+        <meta property="og:image" content="https://www.tejoparty.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.40b850fe.png&w=640&q=75" />
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-01WHL0EHPQ" strategy="beforeInteractive" />
         <Script
           strategy="beforeInteractive"

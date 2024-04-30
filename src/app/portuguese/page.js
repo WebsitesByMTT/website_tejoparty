@@ -45,7 +45,7 @@ const data = {
             link: "About Us",
         },
         heading: "Use o Tejoparty para iniciar um ",
-        name: "<a href='https://www.tejoparty.com/'>WatchParty Together</a>",
+        name: "<a href='/portuguese'>WatchParty Together</a>",
         subHeading: "É a melhor extensão onde você pode explorar todos os programas mais recentes",
         text: "Quantas vezes você planejou o encontro do cinema com seus entes queridos e cancelou devido à sua agitada agenda de trabalho? Mas não mais! Tal como acontece com esta extensão Tejoparty, não precisa de cancelar as suas noites de cinema. Porque no Tejoparty você encontrará vários filmes, programas e séries mais recentes em uma única plataforma. A melhor parte é que aqui você pode começar o seu próprio watch party together where you can invite as many as your friends and have a chit-chat while watching a movie. It will give you a feel like you are sitting next to them and having lots of fun together. <br/> <br/>  Quer você seja um Netflix ou um Prime, há de tudo para todos. Você pode hospedar um Hulu watch party, Netflix watch party, YouTube watch party, HBO Max watch party, Disney Plus watch party, Amazon watch party, and many others. ",
         button: {
@@ -176,7 +176,7 @@ const data = {
         heading: "Obtenha agora, é grátis",
         subtext: "Estou pronto para participar na festa Tejowatch",
         heading1: "Pesquisas populares:-",
-        keywords: "netflix party, chat netflix, hyperbeam, watch together, watchtogether, teleparty, netflix watch party, watch party, watchparty, hyperbeam, watch party netflix, netflix watch together, watch together netflix",
+        keywords: "netflix party, chat netflix, hyperbeam, <a href='https://www.tejoparty.com/'>watch together</a>, watchtogether, teleparty, netflix watch party, watch party, watchparty, hyperbeam, <a href='https://www.tejoparty.com/german'>watch party</a> netflix, netflix watch together, watch together netflix",
         heading2: "Isenção de responsabilidade:-",
         text: "Tejoparty, Tejo Watchparty Extension, Teleparty Extension, Netflix, HBO Max, Disney Plus Hotstar, Amazon Prime Video, Hulu, Paramount Plus, E Peacock TV são marcas de seus respectivos proprietários. Este site e extensão não possuem associação ou associação com nenhuma das marcas mencionadas ou empresas terceirizadas.",
         copywrite: "copyright © 2024 Tejoparty. All rights reserved.",
@@ -189,6 +189,12 @@ const data = {
         privacyPolicy: {
             text: "Política de Privacidade",
             link: "/privacy-policy",
+            type: "button",
+            icon: false
+        },
+        blogs: {
+            text: "Blogs",
+            link: "/blogs",
             type: "button",
             icon: false
         }

@@ -168,6 +168,12 @@ const data = {
       link: "/privacy-policy",
       type: "button",
       icon: false
+    },
+    blogs: {
+        text: "Blogs",
+        link: "/blogs",
+        type: "button",
+        icon: false
     }
   }
 }
@@ -178,7 +184,7 @@ export default function Home() {
       <Section1 data={data.section1} />
       <Section2 data={data.section2} />
       <Section3 data={data.section3} />
-      <Section4 data={data.section4} />
+      <Section4 />
       <Section5 data={data.section5} />
       <Section6 data={data.section6} />
       <Section7 data={data.section7} />

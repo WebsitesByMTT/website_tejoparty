@@ -10,6 +10,7 @@ const Footer = ({ data }) => {
                     </h2>
                     <p className="text-2xl font-semibold" >{data.subtext}</p>
                     <div className="flex gap-4">
+                    <Button data={data.blogs} />
                         <Button data={data.contactUs} />
                         <Button data={data.privacyPolicy} />
                     </div>
@@ -73,7 +74,7 @@ const Footer = ({ data }) => {
                         <h3 className="text-xl font-semibold">
                             {data.heading1}
                         </h3>
-                        <p dangerouslySetInnerHTML={{ __html: `<span>${data.keywords}</span>` }}>
+                        <p dangerouslySetInnerHTML={{ __html: `<span>${data?.keywords}</span>` }}>
                         </p>
                     </div>
                     <div className="flex flex-col gap-6 md:w-[80%] text-center">
