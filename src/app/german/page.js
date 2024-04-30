@@ -45,7 +45,7 @@ const data = {
             link: "About Us",
         },
         heading: "Verwenden Sie Tejoparty, um A zu starten",
-        name: "<a href='https://www.tejoparty.com/'>WatchParty</a>",
+        name: "<a href='/german'>WatchParty</a>",
         subHeading: "Es ist die beste Erweiterung, mit der Sie die neuesten Shows erkunden können",
         text: "Wie oft haben Sie Ihren Kinotermin mit Ihren Lieben geplant und ihn aufgrund Ihres hektischen Arbeitsalltags abgesagt? Aber nicht mehr! Wie bei dieser Tejoparty-Erweiterung müssen Sie Ihre Filmabende nicht absagen. Denn bei Tejoparty finden Sie zahlreiche aktuelle Filme, Shows und Serien auf einer Plattform. Das Beste daran ist, dass Sie hier Ihr eigenes Projekt starten können watch party Hier können Sie beliebig viele Freunde einladen und sich unterhalten, während Sie einen Film ansehen. Es wird Ihnen das Gefühl geben, als würden Sie neben ihnen sitzen und viel Spaß miteinander haben. <br/> <br/>  Egal, ob Sie ein Netflix-Benutzer oder ein Prime sind, es ist für jeden etwas dabei. Sie können eine hosten Hulu watch party, Netflix watch party, YouTube watch party, HBO Max watch party, Disney Plus watch party, Amazon watch party, und viele andere.",
         button: {
@@ -176,7 +176,7 @@ const data = {
         heading: "Holen Sie es sich jetzt, es ist kostenlos",
         subtext: "Ich bin bereit, der Tejowatch-Party beizutreten",
         heading1: "Beliebte Suchanfragen:-",
-        keywords: "Watch together with friends, watch party, watchparty, Tejo extension, netflix party, teleparty, watch party, chat netflix, watch together, hyperbeam, watch party netflix, watch party amazon prime, netflix watch party, teleparty extensão, watch party amazon",
+        keywords: "<a href='https://www.tejoparty.com/'>Watch together with friends</a>, watch party, <a href='https://www.tejoparty.com/portuguese'>watchparty</a>, Tejo extension, netflix party, teleparty, watch party, chat netflix, watch together, hyperbeam, watch party netflix, watch party amazon prime, netflix watch party, teleparty extensão, watch party amazon",
         heading2: "Haftungsausschluss:- ",
         text: "Tejoparty, Tejo Watchparty Extension, Teleparty Extension, Netflix, HBO Max, Disney Plus Hotstar, Amazon Prime Video, Hulu, Paramount Plus, And Peacock TV sind die Marken ihrer jeweiligen Eigentümer. Diese Website und Erweiterung stehen in keiner Verbindung oder Mitgliedschaft zu einer der genannten Marken oder Drittunternehmen.",
         copywrite: "copyright © 2024 Tejoparty. All rights reserved.",
@@ -189,6 +189,12 @@ const data = {
         privacyPolicy: {
             text: "Datenschutzrichtlinie",
             link: "/privacy-policy",
+            type: "button",
+            icon: false
+        },
+        blogs: {
+            text: "Blogs",
+            link: "/blogs",
             type: "button",
             icon: false
         }
