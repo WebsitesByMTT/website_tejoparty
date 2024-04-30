@@ -10,8 +10,8 @@ const Footer = ({ data }) => {
                     </h2>
                     <p className="text-2xl font-semibold" >{data.subtext}</p>
                     <div className="flex gap-4">
-                        <Button data={data.contactUs}/>
-                        <Button data={data.privacyPolicy}/>
+                        <Button data={data.contactUs} />
+                        <Button data={data.privacyPolicy} />
                     </div>
                 </div>
                 <svg width="100%" viewBox="0 0 1920 477" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -73,8 +73,7 @@ const Footer = ({ data }) => {
                         <h3 className="text-xl font-semibold">
                             {data.heading1}
                         </h3>
-                        <p>
-                            {data.keywords}
+                        <p dangerouslySetInnerHTML={{ __html: `<span>${data.keywords}</span>` }}>
                         </p>
                     </div>
                     <div className="flex flex-col gap-6 md:w-[80%] text-center">

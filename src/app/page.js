@@ -22,7 +22,7 @@ const data = {
       link: "About Us",
     },
     heading: "Use Tejoparty to Start",
-    name: "A WatchParty",
+    name: "A <a href='https://www.tejoparty.com/'>WatchParty</a>",
     subHeading: "It is the best extension where you can explore all the latest shows",
     text: "How many times, that you planned your movie date with your loved ones and canceled due to your hectic work schedules? But not anymore! As with this extension Tejoparty, you don’t need to cancel your movie nights. Because in Tejoparty you will find numerous latest movies, shows, and series on one platform. The best part is here you can start your own watch party where you can invite as many as your friends and have a chit-chat while watching a movie. It will give you a feel like you are sitting next to them and having lots of fun together. <br/> <br/>  Whether you are a Netflix person or a Prime, there is everything for everyone. You can host a Hulu watch party, Netflix watch party, YouTube watch party, HBO Max watch party, Disney Plus watch party, Amazon watch party, and many others. ",
     button: {
@@ -153,7 +153,7 @@ const data = {
     heading: "Get it now, it’s free",
     subtext: "I am ready to join Tejowatch party",
     heading1: "Popular Searches:-",
-    keywords: "Watch together with friends, watch party, watchparty, Tejo extension, party extension, amazon party, netflix party, disney plus party, hbo max watch party, youtube party, ad free extension, free party extension, teleparty chrome, teleparty chrome extention, chrome extension teleparty, chrome teleparty, chrome teleparty extension, chrome web store teleparty, google chrome teleparty, netflix party chrome download, netflix party is now teleparty chrome web store, netflix teleparty chrome, netflix teleparty chrome extension, teleparty chrome extension download, teleparty extension chrome, teleparty extension google chrome, teleparty for chrome, teleparty google chrome, teleparty google chrome extension, teleparty ipad chrome",
+    keywords: "<a href=''https://www.tejoparty.com/german>Watch together with friends</a>, watch party, watchparty, Tejo extension, party extension, amazon party, netflix party, disney plus party, hbo max watch party, youtube party, ad free extension, <a href='https://www.tejoparty.com/portuguese'>free party extension</a>, teleparty chrome, teleparty chrome extention, chrome extension teleparty, chrome teleparty, chrome teleparty extension, chrome web store teleparty, google chrome teleparty, netflix party chrome download, netflix party is now teleparty chrome web store, netflix teleparty chrome, netflix teleparty chrome extension, teleparty chrome extension download, teleparty extension chrome, teleparty extension google chrome, teleparty for chrome, teleparty google chrome, teleparty google chrome extension, teleparty ipad chrome",
     heading2: "Disclaimer:- ",
     text: "Tejoparty, Tejo Watchparty Extension, Teleparty Extension, Netflix, HBO Max, Disney Plus Hotstar, Amazon Prime Video, Hulu, Paramount Plus, And Peacock TV are the brands of their respective owners. This website & extension hold no association or membership with any of the mentioned brands or third-party companies.",
     copywrite: "copyright © 2024 Tejoparty. All rights reserved.",
@@ -163,7 +163,7 @@ const data = {
       type: "button",
       icon: false
     },
-    privacyPolicy:{
+    privacyPolicy: {
       text: "Privacy Policy",
       link: "/privacy-policy",
       type: "button",
